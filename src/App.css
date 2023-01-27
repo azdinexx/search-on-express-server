@@ -1,0 +1,37 @@
+#root {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#firstCard {
+  background-color: #A6A6A6;
+  height: 100vh;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+input {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  font-size: 22px;
+}
+
+#secondCard{
+  height:calc(100vh - 84px);
+  width: 400px;
+  overflow-y: scroll;
+  background-color: #DFDFDF;
+  color: black;
+  margin-block: 40px;
+  border-radius: 15px;
+  border: 2px solid white;
+  box-shadow: -20px 10px 40px #696969;
+}
